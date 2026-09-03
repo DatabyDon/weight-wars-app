@@ -1,25 +1,29 @@
-# 🎈 Blank app template
+# weight-wars
 
-A simple Streamlit app template for you to modify!
+A simple Streamlit dashboard for tracking weight goal progress across a small group — built as a hands-on way to learn Streamlit while making something genuinely useful for me and a few friends.
 
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://blank-app-template.streamlit.app/)
+> 🚧 **Status: early scaffolding.** The devcontainer, dependencies, and project structure are in place — core features are still being built. Check back for updates as this progresses.
 
-### How to run it on your own machine
+## What it is
 
-Prerequisite: install `uv` if you don't already have it.
+Most weight trackers are single-player. weight-wars is meant to be a shared, no-frills dashboard a small group can check in on together — simple enough to actually use, without the bloat of a full fitness app.
 
-```
-$ curl -LsSf https://astral.sh/uv/install.sh | sh
-```
+## Tech stack
 
-1. Sync the dependencies
+- [Streamlit](https://streamlit.io/) — UI and app framework
+- [pandas](https://pandas.pydata.org/) / [NumPy](https://numpy.org/) — data handling
+- [uv](https://docs.astral.sh/uv/) — dependency and environment management
+- Python 3.14
+- Dev Containers / GitHub Codespaces for a consistent dev environment
 
-   ```
-   $ uv sync
-   ```
+## Live dashboard
 
-2. Run the app
+👉 [weightwars.streamlit.app](https://weightwars.streamlit.app/)
 
-   ```
-   $ uv run streamlit run streamlit_app.py
-   ```
+## Deployment
+
+Deployed on [Streamlit Community Cloud](https://streamlit.io/cloud).
+
+## License
+
+See [LICENSE](./LICENSE) for details.
