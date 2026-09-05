@@ -11,7 +11,7 @@
     },
     "vscode": {
       "settings": {
-        "python.defaultInterpreterPath": "~/.venvs/weight-wars/bin/python"
+        "python.defaultInterpreterPath": "/home/vscode/.venvs/weight-wars/bin/python"
       },
       "extensions": [
         "ms-python.python",
