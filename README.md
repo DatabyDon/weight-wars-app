@@ -22,6 +22,11 @@ Built with Python, Pandas, and Streamlit.
 
 ---
 
+## 🎨 **Design Inspiration**
+- **Color Palette**: [colorhunt.co/palette/206a5d81b214ffcc29f58634](https://colorhunt.co/palette/206a5d81b214ffcc29f58634)
+
+---
+
 ## 📦 **Tech Stack**
 - **Language**: Python 3.14
 - **Framework**: [Streamlit](https://streamlit.io/) 1.61.1
