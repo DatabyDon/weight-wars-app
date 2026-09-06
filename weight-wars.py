@@ -2,9 +2,34 @@ import streamlit as st
 import numpy as np
 import pandas as pd
 
-# Creating a title and heading
+# branding assets
+from branding import (
+    PRIMARY_COLOR,
+    SECONDARY_COLOR,
+    ACCENT_COLOR,
+    SECONDARY_ACCENT,
+    BACKGROUND_COLOR,
+    FONT_FAMILY,
+    FONT_SIZE_LARGE,
+    PADDING_LARGE,
+)
+
+# Apply the background color to the entire app
+st.markdown(
+    f"""
+    <style>
+    .stApp {{
+        background-color: {BACKGROUND_COLOR};
+        font-family: {FONT_FAMILY};
+    }}
+    </style>
+    """,
+    unsafe_allow_html=True,
+)
+
+# Creating a title
 st.title(
-    body = ":green[Weight] :blue[Wars]",
+    body = ":color[WEIGHT WARS]{foreground="+SECONDARY_ACCENT+"}",
     text_alignment = "center"
 )
 
@@ -23,7 +48,7 @@ st.bar_chart(
     data = progress_df,
     x = "Player",
     y = "% to Goal",
-    color = ["#FF0000"],
+    color = PRIMARY_COLOR,
     horizontal = True,
     sort="-% to Goal", # putting a '-' in front of the column tells Streamlit to use descending order
     height=200

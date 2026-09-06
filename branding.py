@@ -4,7 +4,9 @@
 PRIMARY_COLOR = "#206a5d"    # Deep Sea Green
 SECONDARY_COLOR = "#81b214"  # Limeade
 ACCENT_COLOR = "#ffcc29"     # Saffron
-BACKGROUND_COLOR = "#f58634" # Burnt Orange
+SECONDARY_ACCENT = "#f58634" # Burnt Orange
+BACKGROUND_COLOR = "#f5f7fa"  # Light Gray
+
 # Fonts (if applicable)
 FONT_FAMILY = "Arial, sans-serif"
 FONT_SIZE_LARGE = "24px"
