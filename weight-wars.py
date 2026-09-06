@@ -19,7 +19,6 @@ st.markdown(
     f"""
     <style>
     .stApp {{
-        background-color: {BACKGROUND_COLOR};
         font-family: {FONT_FAMILY};
     }}
     </style>
