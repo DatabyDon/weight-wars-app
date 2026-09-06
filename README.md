@@ -1,29 +1,43 @@
-# weight-wars
+# Weight Wars 🏋️‍♂️
 
-A simple Streamlit dashboard for tracking weight goal progress across a small group — built as a hands-on way to learn Streamlit while making something genuinely useful for me and a few friends.
+A **Streamlit dashboard** for tracking personal weight goals in a small group setting.
+Built with Python, Pandas, and Streamlit.
 
-> 🚧 **Status: early scaffolding.** The devcontainer, dependencies, and project structure are in place — core features are still being built. Check back for updates as this progresses.
+---
 
-## What it is
+## 📌 **About**
+**Weight Wars** is a simple, visual tool to help a small group track progress toward personal weight goals.
+- **Deployed App**: [weightwars.streamlit.app](https://weightwars.streamlit.app/)
+- **Status**: Early development (basic UI, manual data input, no persistence yet).
 
-Most weight trackers are single-player. weight-wars is meant to be a shared, no-frills dashboard a small group can check in on together — simple enough to actually use, without the bloat of a full fitness app.
+---
 
-## Tech stack
+## 🛠 **Features**
+✅ **Progress Tracking**: Visualize weight goals with bar charts.
+✅ **Custom Styling**: Themed UI with a cohesive color palette.
+🚧 **In Development**:
+   - Data persistence (Google Sheets/SQLite).
+   - User input flow for weight entries.
+   - Group comparisons and analytics.
 
-- [Streamlit](https://streamlit.io/) — UI and app framework
-- [pandas](https://pandas.pydata.org/) / [NumPy](https://numpy.org/) — data handling
-- [uv](https://docs.astral.sh/uv/) — dependency and environment management
-- Python 3.14
-- Dev Containers / GitHub Codespaces for a consistent dev environment
+---
 
-## Live dashboard
+## 📦 **Tech Stack**
+- **Language**: Python 3.14
+- **Framework**: [Streamlit](https://streamlit.io/) 1.61.1
+- **Data**: [Pandas](https://pandas.pydata.org/) 3.0.5, [NumPy](https://numpy.org/) 2.5.2
+- **Dependencies**: Managed via `uv` (see [pyproject.toml](pyproject.toml)).
 
-👉 [weightwars.streamlit.app](https://weightwars.streamlit.app/)
+---
 
-## Deployment
+## 🚀 **Getting Started**
 
-Deployed on [Streamlit Community Cloud](https://streamlit.io/cloud).
+### Prerequisites
+- Python 3.14+
+- `uv` for dependency management (install [here](https://github.com/astral-sh/uv)).
 
-## License
-
-See [LICENSE](./LICENSE) for details.
+### Local Setup
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/DatabyDon/weight-wars-app.git
+   cd weight-wars-app
